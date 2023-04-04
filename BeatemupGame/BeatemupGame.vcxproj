@@ -140,7 +140,6 @@
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="EBO.cpp" />
     <ClCompile Include="Mesh.cpp" />
-    <ClCompile Include="Model.cpp" />
     <ClCompile Include="shaderClass.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="stb.cpp" />
@@ -149,8 +148,6 @@
     <ClCompile Include="VBO.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\VisualstudioDirectories\Models\Sword\scene.bin" />
-    <None Include="..\..\VisualstudioDirectories\Models\Sword\scene.gltf" />
     <None Include="BasicShader.glsl" />
     <None Include="default.vert" />
     <None Include="light.frag" />
@@ -166,7 +163,6 @@
     <ClInclude Include="EBO.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Mesh.h" />
-    <ClInclude Include="Model.h" />
     <ClInclude Include="shaderClass.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="VAO.h" />

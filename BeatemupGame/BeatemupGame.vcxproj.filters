@@ -19,9 +19,6 @@
     <Filter Include="Resource Files\Textures">
       <UniqueIdentifier>{1e325350-bcdb-494b-875a-4c565e44effa}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Models">
-      <UniqueIdentifier>{ce483ded-8e68-4022-a1bc-ec039d26d787}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -63,9 +60,6 @@
     <ClCompile Include="Mesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Model.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="BasicShader.glsl">
@@ -79,12 +73,6 @@
     </None>
     <None Include="light.vert">
       <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="..\..\VisualstudioDirectories\Models\Sword\scene.gltf">
-      <Filter>Resource Files\Models</Filter>
-    </None>
-    <None Include="..\..\VisualstudioDirectories\Models\Sword\scene.bin">
-      <Filter>Resource Files\Models</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -121,9 +109,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Mesh.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Model.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
